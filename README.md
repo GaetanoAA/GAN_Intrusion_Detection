@@ -95,7 +95,7 @@ Nella versione corretta il generatore si allena dalla prima epoca, ma il risulta
 
 ## Template e licenza
 
-I notebook sono versioni modificate di `train_evaluate_models.ipynb` del template [gweldit/VanillaGAN](https://github.com/gweldit/VanillaGAN), distribuito con licenza Apache 2.0 ([copia in `third_party/`](third_party/VanillaGAN-LICENSE)). Dal template vengono il preprocessing di ADFA-LD, la conversione in grafi, i modelli, le funzioni di addestramento e valutazione e le celle che dividono i dati, addestrano la GCN di riferimento e la GAN. Rispetto al template, i notebook aggiungono l'ambiente Colab e il caricamento del dataset, la generazione dei soli attacchi in numero sufficiente a bilanciare le classi, la data augmentation, i riaddestramenti della GCN nelle due configurazioni e il confronto strutturale.
+I notebook sono versioni modificate di `train_evaluate_models.ipynb` del template [gweldit/VanillaGAN](https://github.com/gweldit/VanillaGAN), distribuito con licenza Apache 2.0 ([copia in `third_party/`](third_party/VanillaGAN-LICENSE)). Dal template vengono il preprocessing di ADFA-LD, la conversione in grafi, i modelli, le funzioni di addestramento e valutazione e le celle che dividono i dati, addestrano la GCN di riferimento e la GAN. Il nostro lavoro riguarda il resto: l'ambiente Colab e il caricamento del dataset, la generazione dei soli attacchi in numero sufficiente a bilanciare le classi, la data augmentation, i riaddestramenti della GCN nelle due configurazioni e il confronto strutturale.
 
 Rispetto al notebook originale, la versione pubblicata qui:
 
